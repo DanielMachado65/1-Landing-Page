@@ -1,0 +1,208 @@
+/*
+*
+*   ██╗    ██╗██╗  ██╗███████╗██╗   ██╗
+*   ██║    ██║██║  ██║██╔════╝╚██╗ ██╔╝
+*   ██║ █╗ ██║███████║█████╗   ╚████╔╝
+*   ██║███╗██║██╔══██║██╔══╝    ╚██╔╝
+*   ╚███╔███╔╝██║  ██║███████╗   ██║
+*   ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝   ╚═╝
+*
+* ------------------------------------------------------ *
+*
+* # 1 - O que é
+* # 2 - Para que serve
+* # 3 - Composição
+* # 4 - Tipos
+* # 5 - Tabela Comparativa
+* # 6 - Como Tomar
+* # 7 - Benefícios
+* # 8 - Engorda
+*
+* ------------------------------------------------------ *
+*/
+
+// Colors
+$color-1: #bf2328;
+$color-2: #ad1d21;
+$color-3: #911317;
+$color-4: #820709;
+
+/*  1 - O que é  */
+section#o-que-e {
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  padding: 40px 0px 0px 0px;
+
+  .title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 24pt;
+  }
+
+  p {
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+
+    &:last-child {
+      margin-bottom: 40px;
+    }
+  }
+
+  .image {
+    align-self: flex-end;
+    margin-top: 50px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+}
+
+/*  2 - Para que Serve  */
+section#para-que-serve {
+  padding: 70px 0px 50px 0px;
+
+  .image {
+    align-self: flex-end;
+
+    img {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 100%;
+    }
+  }
+
+  .title {
+    color: $color-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-size: 20pt;
+  }
+
+  p {
+    margin: 0px 0px 20px 0px;
+    font-size: 11.5pt;
+  }
+}
+
+/*  3 - Composição  */
+section#composicao {
+  .title {
+    color: $color-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-size: 20pt;
+  }
+
+  .subtitle {
+    font-style: italic;
+    font-size: 17pt;
+    margin: 0px 0px 65px 0px;
+  }
+
+  .box {
+    position: relative;
+    padding: 65px 40px 45px 40px;
+    color: #ffffff;
+
+    &:last-child {
+      padding-bottom: 10px;
+      margin-bottom: 50px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  .box-1 {
+    background-color: $color-2;
+  }
+
+  .box-2 {
+    background-color: $color-3;
+  }
+
+  .box-3 {
+    background-color: $color-4;
+  }
+
+  .box-name {
+    background: #323232;
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-transform: uppercase;
+    padding: 15px 35px 15px 45px;
+    font-size: 13pt;
+    transform: translateY(-24px);
+
+    &:after {
+    	content: '';
+    	position: absolute;
+    	right: 0;
+    	top: 50%;
+    	width: 0;
+    	height: 0;
+    	border: 24px solid transparent;
+    	border-left-color: #323232;
+    	border-right: 0;
+    	margin-top: -24px;
+    	margin-right: -24px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .box {
+      padding: 65px 15px 45px 15px;
+    }
+
+    .box-name {
+      padding: 15px 15px 15px 15px;
+      font-size: 11pt;
+    }
+  }
+}
+
+/*  4 - Tipos  */
+section#tipos {
+  .image {
+    align-self: center;
+
+    img {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 100%;
+    }
+  }
+
+  .subtitle {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12pt;
+  }
+
+  .title {
+    color: $color-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-size: 20pt;
+  }
+
+  p {
+    margin: 0px 0px 20px 0px;
+    font-size: 11.5pt;
+  }
+}
