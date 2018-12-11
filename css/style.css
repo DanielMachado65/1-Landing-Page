@@ -1,5 +1,33 @@
 @charset "UTF-8";
+@font-face {
+     font-family: gotham-medium;
+     src: url('fonts\Gotham-Medium.otf');
+}
 
+@font-face {
+     font-family: gotham-medium-italic;
+     src: url('fonts\Gotham-MediumItalic.otf');
+}
+
+@font-face {
+     font-family: gotham-light;
+     src: url('fonts\GOTHAM-LIGHT_0.OTF');
+}
+
+@font-face {
+     font-family: gotham-bold;
+     src: url('fonts\GOTHAM-BOLD_0.OTF');
+}
+
+@font-face {
+     font-family: elegantIcons;
+     src: url('fonts\ElegantIcons.ttf');
+}
+
+@font-face {
+     font-family: titillium-BoldItalic;
+     src: url('fonts\Titillium-BoldItalic.otf');
+}
 /*
 *
 *   ██╗    ██╗██╗  ██╗███████╗██╗   ██╗
@@ -35,18 +63,20 @@ section#o-que-e {
 section#o-que-e .title {
   color: #ffffff;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: gotham-bold;
   margin-bottom: 30px;
   font-size: 24pt;
 }
 
 section#o-que-e p {
   color: #ffffff;
+  font-family: gotham-medium;
   margin: 0px 0px 20px 0px;
 }
 
 section#o-que-e p:last-child {
   margin-bottom: 40px;
+  font-family: gotham-medium;
 }
 
 section#o-que-e .image {
