@@ -213,6 +213,41 @@ section#tabela-comparativa {
   background-color: #d4d5d5;
   margin: 30px 0px;
 
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+  }
+
+  #left-top-triangle {
+    border-width: 200px 0 0 200px;
+    border-color: transparent transparent transparent #d4d5d5;
+    top: -30px;
+    left: 0px;
+  }
+
+  #right-top-triangle {
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent #d4d5d5 transparent;
+    top: -30px;
+    right: 0px;
+  }
+
+  #right-bottom-triangle {
+    border-width: 0 0 200px 200px;
+    border-color: transparent #d4d5d5 transparent transparent;
+    bottom: -30px;
+    right: 0px;
+  }
+
+  #left-bottom-triangle {
+    border-width: 0 0 200px 200px;
+    border-color: #d4d5d5 transparent transparent transparent;
+    bottom: -30px;
+    left: 0px;
+  }
+
   .title {
     margin: 0px 0px 30px 0px;
     color: $color-1;
@@ -342,5 +377,39 @@ section#beneficios {
 
 /* 8 - Perguntas */
 section#perguntas {
+  .title {
+    color: $color-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-size: 20pt;
+  }
 
+  .item-icon {
+    margin-bottom: 80px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li::before {
+      content: "•";
+      color: $color-1;
+      font-size: 14pt;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .item-icon {
+      margin-bottom: 30px;
+    }
+
+    img {
+      margin-bottom: 50px;
+      width: 50%;
+    }
+  }
 }
