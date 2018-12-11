@@ -200,3 +200,16 @@ section#tipos p {
   margin: 0px 0px 20px 0px;
   font-size: 11.5pt;
 }
+
+section#tabela_composicao .container{
+  background-color: grey;
+}
+
+section#tabela_composicao .title{
+  color: #bf2328;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 24pt;
+}
