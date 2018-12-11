@@ -16,16 +16,16 @@
 * # 5 - Tabela Comparativa
 * # 6 - Como Tomar
 * # 7 - Benefícios
-* # 8 - Engorda
+* # 8 - Perguntas
 *
 * ------------------------------------------------------ *
 */
 
 // Colors
-$color-1: #bf2328;
-$color-2: #ad1d21;
-$color-3: #911317;
-$color-4: #820709;
+$color-1: #de1e23;
+$color-2: #d4181d;
+$color-3: #ac0b10;
+$color-4: #960102;
 
 /*  1 - O que é  */
 section#o-que-e {
@@ -205,4 +205,142 @@ section#tipos {
     margin: 0px 0px 20px 0px;
     font-size: 11.5pt;
   }
+}
+
+/*  5 - Tabela Comparativa  */
+section#tabela-comparativa {
+  position: relative;
+  background-color: #d4d5d5;
+  margin: 30px 0px;
+
+  .title {
+    margin: 0px 0px 30px 0px;
+    color: $color-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .gray {
+    background-color: #e7e7e7;
+    padding: 40px 45px;
+  }
+
+  table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  td, th, tr {
+    border: 1px solid #adadad;
+    text-align: center;
+    padding: 5px 10px;
+  }
+
+  thead th {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-1;
+    font-size: 12pt;
+  }
+
+  tbody th {
+    font-weight: normal;
+    text-align: left;
+
+    b {
+      text-transform: uppercase;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .gray {
+      padding: 40px 15px;
+    }
+  }
+}
+
+/* 6 - Como Tomar */
+section#como-tomar {
+  .title {
+    color: $color-1;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    font-size: 20pt;
+  }
+
+  img {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .item-icon {
+    padding: 20px 0px 20px 0px;
+  }
+
+  @media (max-width: 992px) {
+    img {
+      width: 40%;
+    }
+  }
+}
+
+/* 7 - Benefícios */
+section#beneficios {
+  background: #222222;
+  margin-bottom: 60px;
+  padding: 35px 0px;
+
+  .title {
+    margin-bottom: 30px;
+    color: $color-1  ;
+    font-size: 24pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto 30px auto;
+  }
+
+  .title-item {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12pt;
+    margin-top: 25px;
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 12pt;
+    margin-bottom: 25px;
+  }
+
+  .item-list {
+    padding-left: 45px;
+
+    &:nth-child(even) {
+      padding-left: 75px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .item-list, .item-list:nth-child(even) {
+      padding: 0px;
+    }
+  }
+}
+
+/* 8 - Perguntas */
+section#perguntas {
+
 }
