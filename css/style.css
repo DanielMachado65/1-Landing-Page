@@ -1,33 +1,35 @@
 @charset "UTF-8";
+
 @font-face {
-     font-family: gotham-medium;
-     src: url('fonts\Gotham-Medium.otf');
+  font-family: gotham-medium;
+  src: url('fonts\Gotham-Medium.otf');
 }
 
 @font-face {
-     font-family: gotham-medium-italic;
-     src: url('fonts\Gotham-MediumItalic.otf');
+  font-family: gotham-medium-italic;
+  src: url('fonts\Gotham-MediumItalic.otf');
 }
 
 @font-face {
-     font-family: gotham-light;
-     src: url('fonts\GOTHAM-LIGHT_0.OTF');
+  font-family: gotham-light;
+  src: url('fonts\GOTHAM-LIGHT_0.OTF');
 }
 
 @font-face {
-     font-family: gotham-bold;
-     src: url('fonts\GOTHAM-BOLD_0.OTF');
+  font-family: gotham-bold;
+  src: url('fonts\GOTHAM-BOLD_0.OTF');
 }
 
 @font-face {
-     font-family: elegantIcons;
-     src: url('fonts\ElegantIcons.ttf');
+  font-family: elegantIcons;
+  src: url('fonts\ElegantIcons.ttf');
 }
 
 @font-face {
-     font-family: titillium-BoldItalic;
-     src: url('fonts\Titillium-BoldItalic.otf');
+  font-family: titillium-BoldItalic;
+  src: url('fonts\Titillium-BoldItalic.otf');
 }
+
 /*
 *
 *   ██╗    ██╗██╗  ██╗███████╗██╗   ██╗
@@ -50,7 +52,6 @@
 *
 * ------------------------------------------------------ *
 */
-
 /*  1 - O que é  */
 section#o-que-e {
   background-size: cover;
@@ -63,20 +64,18 @@ section#o-que-e {
 section#o-que-e .title {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: gotham-bold;
+  font-weight: bold;
   margin-bottom: 30px;
   font-size: 24pt;
 }
 
 section#o-que-e p {
   color: #ffffff;
-  font-family: gotham-medium;
   margin: 0px 0px 20px 0px;
 }
 
 section#o-que-e p:last-child {
   margin-bottom: 40px;
-  font-family: gotham-medium;
 }
 
 section#o-que-e .image {
@@ -195,6 +194,7 @@ section#composicao .box-name:after {
   section#composicao .box {
     padding: 65px 15px 45px 15px;
   }
+
   section#composicao .box-name {
     padding: 15px 15px 15px 15px;
     font-size: 11pt;
@@ -351,7 +351,10 @@ section#como-tomar .item-icon {
 
 /* 7 - Benefícios */
 section#beneficios {
-  background: #222222;
+  background-size: cver;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
   margin-bottom: 60px;
   padding: 35px 0px;
 }
@@ -429,6 +432,7 @@ section#perguntas ul li::before {
   section#perguntas .item-icon {
     margin-bottom: 30px;
   }
+
   section#perguntas img {
     margin-bottom: 50px;
     width: 50%;
