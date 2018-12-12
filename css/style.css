@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
+/*
+*
+*   ██╗    ██╗██╗  ██╗███████╗██╗   ██╗
+*   ██║    ██║██║  ██║██╔════╝╚██╗ ██╔╝
+*   ██║ █╗ ██║███████║█████╗   ╚████╔╝
+*   ██║███╗██║██╔══██║██╔══╝    ╚██╔╝
+*   ╚███╔███╔╝██║  ██║███████╗   ██║
+*   ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝   ╚═╝
+*
+* ------------------------------------------------------ *
+*
+* # 1 - O que é
+* # 2 - Para que serve
+* # 3 - Composição
+* # 4 - Tipos
+* # 5 - Tabela Comparativa
+* # 6 - Como Tomar
+* # 7 - Benefícios
+* # 8 - Perguntas
+*
+* ------------------------------------------------------ *
+*/
+
 @font-face {
   font-family: gotham-medium;
   src: url('fonts\Gotham-Medium.otf');
@@ -30,28 +53,6 @@
   src: url('fonts\Titillium-BoldItalic.otf');
 }
 
-/*
-*
-*   ██╗    ██╗██╗  ██╗███████╗██╗   ██╗
-*   ██║    ██║██║  ██║██╔════╝╚██╗ ██╔╝
-*   ██║ █╗ ██║███████║█████╗   ╚████╔╝
-*   ██║███╗██║██╔══██║██╔══╝    ╚██╔╝
-*   ╚███╔███╔╝██║  ██║███████╗   ██║
-*   ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝   ╚═╝
-*
-* ------------------------------------------------------ *
-*
-* # 1 - O que é
-* # 2 - Para que serve
-* # 3 - Composição
-* # 4 - Tipos
-* # 5 - Tabela Comparativa
-* # 6 - Como Tomar
-* # 7 - Benefícios
-* # 8 - Perguntas
-*
-* ------------------------------------------------------ *
-*/
 /*  1 - O que é  */
 section#o-que-e {
   background-size: cover;
@@ -351,7 +352,7 @@ section#como-tomar .item-icon {
 
 /* 7 - Benefícios */
 section#beneficios {
-  background-size: cver;
+  background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
   background-repeat: no-repeat;
